@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+
+    <h2>Login</h2> 
+    login: <br>
+    <input type="text" name="login">
+    <br>
+
+    Senha: <br>
+        <input type="password" name="Senha">
+        <input type="button" value="loga">
+        
+    <hr>
+
+    <!--CADASTRO-->
+    <h2>Cadastre-se</h2>
+
+    Login: <br>
+    <input type="text" name="login"> <br>
+    Senha: <br>
+    <input type="password" name="Senha">
+    <input type="button" value="salvar"> <br><br>
+
+    Sexo: <br>
+    <!-- "radio" serve para opção de escolha-->
+    <!-- para que a pessoa não seja capaz de marca as duas opção é necessario
+    o "name" tenha a mesma palavra, como no exemplo : sexo -->
+        <input type="radio" name="sexo" value="M"> Masculino <br>
+        <input type="radio" name="sexo" value="F"> Feminino <br> <br>
+
+    Interesses <br>
+    <!-- "checkbox" é utilizado quando se é necessario recolher informações 
+    sobre interesses do usuario ou gostos, exemplo: comidas favoritas, passas 
+    tempos, filmes e etc..-->
+        <input type="checkbox" name="">Futebol <br>
+        <input type="checkbox" name="">Basquete <br>
+        <input type="checkbox" name="">Video Gamer <br>
+        <input type="checkbox" name="">Academia <br> <br>
+
+    Estado <br>
+    <!-- "select" serve para que o usuario possa escolhe apenas uma unica 
+    opção baseado em uma lista de itens-->
+    <select name="estado">
+        <option value="sp">SP</option>
+        <option value="mg">MG</option>
+        <option value="rj">RJ</option>
+        <option value="rs">RS</option>
+        <option value="ce">CE</option>
+    </select><br><br>
+
+    Observações: <br>
+    <!--"texttarea" serve para criar uma caixa de texto, serve para deixar 
+    uma observação ou comentario do usuario-->
+    <textarea name="" id="" cols="32" rows="2"></textarea>
+
+    <input type="submit" value="Cadastrar">
+
+    </form>
+</body>
+</html>
